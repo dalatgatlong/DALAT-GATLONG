@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>sport.com</title>
+</head>
+<body>
+	<button type="button"onclick="document.getElementByid('demo4').InnerHTML = date()">
+		clik me to display date and time.
+	</button>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+	<p id="demo3"></p>
+	<p id="demo4"></p>
+	<script type="text/javascript">
+	const car = {height:"20 m"; color:"white"; model:;"fifth"};
+	document.getElementByid("demo1").InnerHTML="the color of the car is " + car.height;
+	const human ={character: "kind"; shape "fat"; height:"2m";
+color:"darkskin"; generatiom:"21 century"; age:"25"};
+	document.getElementByid("demo2").InnerHTML="the color of the human is " + human.shape;
+
+
+	// create an empty object
+	const person = {};
+// Add properties
+	person.firstname ="john";
+	person.lastname ="Doe";
+	person.age=50;
+	person.syecolor ="blue";
+
+	// Dispiay date from object
+	document.getElementByid("demo3").InnerHTML=person.firstname +" is " + person.age + "years old.";
+	
+	const MYOBJ={
+		NAME: "DALAT";
+		AGE: "23";
+		MYCARS: {
+			CAR1:"ford";
+			CAR2:"lorry";
+			car3:"Bus"
+		}
+	}
+	document.getElementByid("demo4").InnerHTML=MYOBJ.MYCARS.car3; 
+	</script>
+
+</body>
+</html> 
